@@ -22,11 +22,11 @@ def game():
 
             while True:
                        
-                if punteggio_mio == 5:
-                    print("Hai vinto la partita!!!")
+                if punteggio_mio == 5:  #non funziona
+                    print("Hai vinto la partita!!!")  
                     return
 
-                elif punteggio_computer == 5:
+                elif punteggio_computer == 5: #non funziona
                     print("Hai perso la partita!!!")
                     return
             
